@@ -1,0 +1,58 @@
+.RecipeBox {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #E6E2AF;
+  border-radius: 5px;
+}
+
+.Meal {
+  background-color: #046380;
+  border-radius: 5px;
+}
+
+.well {
+  background-color: #EFECCA;
+  color: #002f2f;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.Ingredients {
+  text-align: left;
+}
+
+h1 {
+  color: #002F2F;
+}
+
+h2 {
+  color: #EFECCA;
+  padding: auto;
+}
+
+hr {
+  border-color: #002F2F;
+}
+
+.addRecipe {
+  margin: 5px 0;
+}
+
+.btn-primary {
+  background-color: #046380;
+}
+
+.modal-header {
+  background-color: #046380;
+}
+
+.modal-body {
+  background-color: #EFECCA;
+}
+
+.modal-footer {
+  background-color: #EFECCA;
+}
