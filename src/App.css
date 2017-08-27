@@ -1,3 +1,8 @@
+body {
+  background: url(desk-background.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
 .RecipeBox {
   text-align: center;
   width: 80%;
@@ -47,6 +52,7 @@ hr {
 
 .modal-header {
   background-color: #046380;
+  color: #FFF;
 }
 
 .modal-body {
@@ -55,4 +61,11 @@ hr {
 
 .modal-footer {
   background-color: #EFECCA;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
 }

@@ -7,6 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <RecipeBox />
+
+        <div className="footer">source code on <code><a href="https://github.com/kibrovic/Recipe-box">github</a></code></div>
       </div>
     );
   }
@@ -110,7 +112,7 @@ class RecipeBox extends Component {
       <div className="RecipeBox">
         <h1>Recipes</h1>
         {recipes}
-        
+
         <ButtonToolbar className="addRecipe">
           <AddRecipe onRecipeUpdate={this.handleRecipeUpdate} />
         </ButtonToolbar>
