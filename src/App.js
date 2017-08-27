@@ -123,8 +123,55 @@ class RecipeBox extends Component {
 }
 
 let recipeContainer = (typeof localStorage["recipeContainer"] !== "undefined") ? JSON.parse(localStorage.getItem("recipeContainer")) : [
-  {"name": "Pie", "ingredients": ["flour", "eggs", "milk"]},
-  {"name": "Soup", "ingredients": ["soup", "water", "spices"]}
+  {"name": "Restaurant-Style Buffalo Chicken Wings", "ingredients": [
+    "1/2 cup all-purpose flour",
+    "1/4 teaspoon paprika",
+    "1/4 teaspoon cayenne pepper",
+    "1/4 teaspoon salt",
+    "10 chicken wings",
+    "oil for deep frying ",
+    "1/4 cup butter ",
+    "1/4 cup hot sauce ",
+    "1 dash ground black pepper",
+    "1 dash garlic powder"
+  ]},
+  {"name": "Banana Crumb Muffins", "ingredients": [
+    "1 1/2 cups all-purpose flour",
+    "1 teaspoon baking soda",
+    "1 teaspoon baking powder",
+    "1/2 teaspoon salt",
+    "3 bananas, mashed",
+    "3/4 cup white sugar",
+    "1 egg, lightly beaten",
+    "1/3 cup butter, melted",
+    "1/3 cup packed brown sugar",
+    "2 tablespoons all-purpose flour",
+    "1/8 teaspoon ground cinnamon",
+    "1 tablespoon butter"
+  ]},
+  {"name": "World's Best Lasagna", "ingredients": [
+    "1 pound sweet Italian sausage",
+    "3/4 pound lean ground beef",
+    "1/2 cup minced onion",
+    "2 cloves garlic, crushed",
+    "1 (28 ounce) can crushed tomatoes",
+    "2 (6 ounce) cans tomato paste",
+    "2 (6.5 ounce) cans canned tomato sauce",
+    "1/2 cup water",
+    "2 tablespoons white sugar",
+    "1 1/2 teaspoons dried basil leaves",
+    "1/2 teaspoon fennel seeds",
+    "1 teaspoon Italian seasoning",
+    "1 tablespoon salt",
+    "1/4 teaspoon ground black pepper",
+    "4 tablespoons chopped fresh parsley",
+    "12 lasagna noodles",
+    "16 ounces ricotta cheese",
+    "1 egg",
+    "1/2 teaspoon salt",
+    "3/4 pound mozzarella cheese, sliced",
+    "3/4 cup grated Parmesan cheese"
+  ]}
 ]
 
 // Modals below
